@@ -1,0 +1,31 @@
+{
+  "name": "perma-cc",
+  "version": "1.0.0",
+  "description": "wrapper for the Perma.cc API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfarber/perma-cc.git"
+  },
+  "keywords": [
+    "perma.cc",
+    "perma",
+    "api"
+  ],
+  "author": "ryan forever",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanfarber/perma-cc/issues"
+  },
+  "homepage": "https://github.com/ryanfarber/perma-cc#readme",
+  "dependencies": {
+    "@ryanforever/logger": "^4.0.6",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
